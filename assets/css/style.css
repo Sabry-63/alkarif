@@ -1,0 +1,973 @@
+/****== TABLE OF CONTENTS ==*****
+
+
+Hero area start
+About Section
+    --about-content(about-page)
+    --acrodion
+service-section-one
+Service Area Two
+Service Area Three
+Single Service page
+Skill Area
+featureds-area
+    --feature-content(feature-page)
+    --single-feature
+Team-area
+funfact
+cta-absolute one
+cta-absolute two
+cta-action-form
+portfolio/Project section
+Pricing Section
+Testimonial Section
+Blog section
+    --blog grid
+    --blog details
+sidebar
+Contact page
+Our Partner/logo
+Error page
+Footer Section
+
+**********************************************/
+
+body {
+  font-family: "El Messiri", sans-serif;
+}
+
+/* start section-title */
+.section-title {
+  margin-bottom: 90px;
+}
+.section-title h2 {
+  margin-top: -5px;
+}
+.section-title .sec-left {
+  padding-left: 30px;
+  position: relative;
+  padding-bottom: 2px;
+  margin-bottom: 50px;
+}
+.section-title .sec-left h4 {
+  font-size: 2em;
+}
+.section-title .sec-left:after {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 70px;
+  height: 5px;
+  content: "";
+  background-color: #ec398b;
+}
+/* End section-title */
+.more-btn-wrap {
+  margin-top: 30px;
+}
+
+/*** 
+====================================================================
+    Start Hero Section
+====================================================================
+ ***/
+
+.hero-section {
+  min-height: 800px;
+  background-color: #f6f8fa;
+  background-position: bottom center;
+  background-size: cover;
+  position: relative;
+  z-index: 99;
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 99;
+}
+
+.hero-section:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #231769;
+  opacity: 0.65;
+  z-index: 1;
+}
+
+.hero-text {
+  margin-right: 20px;
+  margin-bottom: 75px;
+}
+
+/* Coming Soon */
+.time-countdown ul {
+  margin: 36px auto;
+}
+.time-countdown ul li {
+  width: 20.7%;
+  margin-right: 4%;
+  text-align: center;
+  display: inline-block;
+  padding: 24px 20px;
+  color: #fff;
+}
+.time-countdown ul li.count-bg-one {
+  background: rgba(255, 51, 181, 0.55);
+}
+.time-countdown ul li.count-bg-two {
+  background: rgba(51, 142, 255, 0.55);
+}
+.time-countdown ul li.count-bg-three {
+  background: rgba(255, 150, 86, 0.55);
+}
+.time-countdown ul li.count-bg-four {
+  background: rgba(255, 109, 86, 0.55);
+  margin-right: 0;
+}
+.time-countdown ul li span {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700;
+  display: block;
+}
+
+/* Register form */
+.register-wrap {
+  padding: 25px 30px 30px;
+  background: #2a1e70;
+  margin-left: 17px;
+  margin-top: 25px;
+}
+.register-wrap h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+.register-wrap .form-group {
+  margin-bottom: 20px;
+}
+
+.ticket-number-box .nice-select {
+  width: 100%;
+  border: none;
+  height: 62px;
+  line-height: 62px;
+  background: #362a80;
+  padding-right: 50px;
+}
+.ticket-number-box .nice-select li {
+  color: #fff;
+  text-align: right;
+}
+.ticket-number-box .nice-select::placeholder {
+  opacity: 0.6;
+}
+.ticket-number-box .nice-select:after {
+  position: absolute;
+  content: "";
+  right: 20px;
+  top: 28px;
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  border-left-width: 7px;
+  border-right-width: 7px;
+  border-top: 13px solid rgba(255, 255, 255, 0.6);
+  transition: 0.5s;
+  transform: rotate(0deg);
+}
+
+.ticket-number-box .nice-select .list {
+  width: 100%;
+  background: #362a80;
+}
+.ticket-number-box .nice-select .option:hover,
+.ticket-number-box .nice-select .option.focus,
+.ticket-number-box .nice-select .option.selected.focus {
+  background-color: #231769;
+}
+
+/*** 
+====================================================================
+    End Hero Section
+====================================================================
+ ***/
+/*** 
+====================================================================
+    Start Header Section
+====================================================================
+ ***/
+.header-bg {
+  background: url("../img/header/3.jpg") no-repeat;
+  background-size: cover;
+}
+/*** 
+====================================================================
+    End  Header Section
+====================================================================
+ ***/
+
+/*** 
+====================================================================
+    Start Why join section
+====================================================================
+ ***/
+
+.why-join-content-wrap {
+  margin-right: 80px;
+}
+
+.why-join-content {
+  margin-bottom: 55px;
+}
+
+.why-join-content h2 {
+  margin-bottom: 50px;
+}
+
+/* feature-block-one */
+.feature-block-one {
+  margin-bottom: 40px;
+}
+.feature-block-one h3 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+.feature-block-one p,
+.why-join-content p {
+  text-align: justify;
+  font-size: 18px;
+}
+.feature-icon i {
+  background: rgba(236, 57, 139, 0.1);
+  font-size: 40px;
+  display: inline-block;
+  margin-bottom: 20px;
+  height: 90px;
+  width: 90px;
+  line-height: 90px;
+  transition: 0.5s;
+  text-align: center;
+  border-radius: 50%;
+  color: #ec398b;
+}
+
+/*** 
+====================================================================
+    End Why join section
+====================================================================
+ ***/
+.work .center div {
+  position: relative;
+  text-align: center;
+  margin: 0 5px;
+}
+.work .center img {
+  width: 100%;
+  height: 200px;
+}
+.work .center div .over-lay {
+  position: absolute;
+  background-color: rgba(233, 56, 136, 0.5);
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: 0;
+  transform: scaleY(0);
+  transition: transform 0.6s;
+}
+
+.work .center div:hover > .over-lay {
+  transform: scaleY(1);
+}
+.work .center div .over-lay h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+@media(max-width:992px){
+  .work .center div {
+    margin: 0;
+  }
+}
+/*** 
+====================================================================
+    Start speakers-section
+====================================================================
+ ***/
+
+.single-speaker {
+  padding: 30px;
+  padding-top: 125px;
+  margin-top: 95px;
+  transition: 0.5s;
+  text-align: center;
+  margin-bottom: 30px;
+  background: #2a1e70;
+  position: relative;
+}
+.single-speaker:after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: #e93888;
+  opacity: 0;
+}
+
+.single-speaker:hover:after {
+  opacity: 1;
+  transition: 0.6s;
+  height: 5px;
+}
+
+.speaker-thumb {
+  position: absolute;
+  display: inline-block;
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  left: 50%;
+  top: -95px;
+  transform: translate(-50%);
+}
+
+.speaker-thumb img {
+  border-radius: 50%;
+  width: 150px;
+}
+
+.speaker-data h6 {
+  margin-bottom: 10px;
+}
+
+.speaker-data .social-style-one {
+  margin-top: 5px;
+}
+
+.speaker-data .social-style-one a {
+  margin: 0 5px;
+}
+
+/*** 
+====================================================================
+    End speakers-section
+====================================================================
+ ***/
+
+/*** 
+====================================================================
+   Start Special Moment-section
+====================================================================
+ ***/
+ .progress--circle {
+  position: relative;
+  display: inline-block;
+  margin: 1rem;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-color: #ddd;
+}
+.progress--circle:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  background-color: #2a1e70;
+}
+.progress--circle:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #e93888;
+}
+
+.progress__number {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  line-height: 1;
+  margin-top: -0.75rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #FFF;
+}
+
+/*** 
+====================================================================
+    End Special Moment-section
+====================================================================
+ ***/
+
+/*** ====================================================================
+  Start Footer Section
+====================================================================***/
+
+.footer-logo {
+  margin-bottom: 35px;
+}
+
+/* footer bottom css */
+.footer-bottom {
+  border-top: 1px solid #b4b3c5;
+}
+.copyright a {
+  color: #b4b3c5;
+}
+/* 
+.footer-menu {
+    text-align: right;
+} */
+.footer-menu li {
+  display: inline-block;
+  margin: 0 15px;
+}
+.footer-menu li:last-child {
+  margin-right: 0;
+}
+.footer-menu li a {
+  color: #b4b3c5;
+}
+
+/*** =========================================================================================================================
+  End Footer Section
+===========================================================================================================================***/
+
+/*** ====================================================================
+  start sponsors Section
+====================================================================***/
+
+.logo-wrap {
+  margin: -40px -45px;
+}
+
+.logo-wrap a {
+  display: inline-block;
+  position: relative;
+  margin: 40px 45px;
+  width: auto;
+}
+
+.logo-wrap a img {
+  width: 150px;
+}
+
+.logo-wrap a:hover img:last-child {
+  opacity: 1;
+  top: 0;
+  visibility: visible;
+}
+
+/*** ====================================================================
+  end sponsors Section
+====================================================================***/
+
+/*** ====================================================================
+   Start Venue section
+====================================================================***/
+.contact-text {
+  margin-bottom: 45px;
+  margin-right: 80px;
+}
+.contact-info {
+  margin-bottom: 27px;
+}
+.contact-info i {
+  color: #e93888;
+  float: right;
+  margin-top: 7px;
+}
+.contact-info span {
+  margin-right: 20px;
+  display: inline-block;
+}
+.map-site {
+  width: 100%;
+  height: 100%;
+  min-height: 350px;
+}
+.map-site iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+/*** ====================================================================
+  end  Venue section
+====================================================================***/
+
+/*** ====================================================================
+  Start Banner Section
+====================================================================***/
+
+.banner-section {
+  height: 350px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/bg/contact.jpg");
+  position: relative;
+  background-size: cover;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-position: center center;
+}
+
+.banner-section:after {
+  content: "";
+  position: absolute;
+  background: #231769;
+  opacity: 0.65;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.banner-inner {
+  padding-top: 100px;
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+
+/*** ====================================================================
+  end Banner Section
+====================================================================***/
+
+/*** ====================================================================
+  Start about page
+====================================================================***/
+
+.about-content {
+  margin-right: 50px;
+}
+.about-content h3 {
+  margin-bottom: 50px;
+}
+.about-image {
+  position: relative;
+  margin-left: -35px;
+}
+.about-image img {
+  border-radius: 5px;
+}
+.about-image:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+/*** ====================================================================
+  end about page
+====================================================================***/
+
+/*** ====================================================================
+  start contact form
+====================================================================***/
+.contact-form .form-group label {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 15px;
+}
+.contact-form .form-group input::placeholder,
+.contact-form .form-group textarea::placeholder {
+  color: #fff;
+}
+.contact-form textarea {
+  min-height: 180px;
+}
+
+.contact-form .btn-bg {
+  min-width: 197px;
+  margin-top: 30px;
+}
+
+/*** ====================================================================
+  end contact form
+====================================================================***/
+
+/*** ====================================================================
+    start sidebar
+====================================================================***/
+
+/*Sidebar*/
+.widget {
+  margin-bottom: 50px;
+}
+.widget .title {
+  margin-bottom: 25px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.widget:last-child {
+  margin-bottom: 0;
+}
+
+/*search widget*/
+.search-widget {
+  position: relative;
+}
+
+.search-widget input {
+  background: rgba(255, 255, 255, 0.16);
+  width: 100%;
+  padding: 16px 20px;
+  color: #fff;
+  border-radius: 5px;
+}
+.search-widget input::placeholder {
+  color: #b4b3c5;
+}
+.search-widget button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  font-size: 18px;
+  width: 60px;
+  color: #fff;
+  cursor: pointer;
+  background: #ec398b;
+  border-radius: 0 5px 5px 0;
+}
+
+/*post widget*/
+.post-widget .post-content .date {
+  margin-bottom: 3px;
+  color: #ec398b;
+}
+
+.post-widget .post-item {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.post-widget .post-item:last-child {
+  margin-bottom: 0;
+}
+
+.post-widget .post-img {
+  width: 86px;
+  flex: none;
+  margin-right: 25px;
+  position: relative;
+}
+.post-widget .post-img:after {
+  content: "";
+  position: absolute;
+  background: #2a1e70;
+  opacity: 0.4;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.post-widget .post-img img {
+  width: 86px;
+  height: 86px;
+  border-radius: 5px;
+}
+.post-widget .post-content h5 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/*Categories widget*/
+.category-widget li a {
+  color: #b4b3c5;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.category-widget a:hover {
+  color: #e93888;
+}
+
+.category-widget li a:before {
+  content: "\f101";
+  font-family: FontAwesome;
+  color: #e93888;
+  margin-right: 15px;
+}
+
+/*Tags widget*/
+.tag-widget a {
+  color: #b4b3c5;
+  font-size: 14px;
+  padding: 5px 15px;
+  margin: 0 10px 15px 0;
+  background: #2a1e70;
+  display: inline-block;
+}
+
+.tag-widget a:hover {
+  color: #e93888;
+}
+
+/*pazination style*/
+.properties-pazination li {
+  display: inline-block;
+}
+
+.properties-pazination li a {
+  color: #ffffff;
+  display: block;
+  text-align: center;
+  height: 25px;
+  width: 25px;
+  line-height: 24px;
+}
+
+.properties-pazination li:first-child a,
+.properties-pazination li:last-child a {
+  background: #2a1e70;
+  font-size: 10px;
+}
+
+.properties-pazination li.active a,
+.properties-pazination li a:hover {
+  color: #fff;
+  background: #e93888;
+}
+
+/*** ====================================================================
+    end sidebar
+====================================================================***/
+
+/*** ====================================================================
+   Start ticket-form
+====================================================================***/
+.ticket-info-wrap h3 {
+  margin-bottom: 50px;
+}
+.ticket-form .form-group {
+  margin-bottom: 30px;
+}
+.ticket-form .btn-bg {
+  margin-top: 25px;
+}
+
+/*** ====================================================================
+    end ticket-form
+====================================================================***/
+
+/*** ========================================================================================================
+  start blog details Page
+==========================================================================================================***/
+
+.single-blog-post-inner {
+  padding-top: 50px;
+}
+
+.single-blog-post-inner h5 {
+  margin-bottom: 25px;
+}
+
+/*--start post-admin--*/
+.single-blog-post-inner .post-admin {
+  margin-bottom: 45px;
+  overflow: hidden;
+}
+.single-blog-post-date {
+  float: left;
+  margin-right: 30px;
+  color: #e93888;
+}
+.single-blog-post-date a {
+  margin-bottom: 15px;
+  display: inline-block;
+}
+.single-blog-post-inner .admin-by a {
+  color: #e93888;
+}
+/*--end post-admin--*/
+
+.post-content p {
+  margin-bottom: 30px;
+}
+
+/*=========   post-comments  ============*/
+
+.latest-comments {
+  padding: 40px 0px 33px 0px;
+  margin-bottom: 40px;
+}
+.latest-comments .comments-avatar {
+  float: left;
+}
+
+.latest-comments .comments-avatar img {
+  width: 160px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+.latest-comments .child .comments-avatar img {
+  width: 120px;
+}
+
+.latest-comments .comments-box {
+  padding: 30px 0;
+  overflow: hidden;
+}
+.latest-comments li:first-child .comments-box {
+  border-top: 0;
+  padding: 0;
+}
+
+.latest-comments li:last-child .comments-box {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.latest-comments li.child {
+  margin-left: 100px;
+}
+
+.latest-comments .child .comments-box {
+  padding-top: 25px;
+}
+
+.latest-comments .comments-text {
+  overflow: hidden;
+  padding-top: 4px;
+}
+
+.latest-comments .comments-text p {
+  margin-bottom: 15px;
+}
+.latest-comments .avatar-name {
+  overflow: hidden;
+  display: inline-block;
+  margin-right: 20px;
+  font-weight: 400;
+  color: #fff;
+}
+.latest-comments .avatar-date {
+  margin-bottom: 10px;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  color: #e93888;
+}
+
+.latest-comments .comment-reply {
+  display: inline-block;
+  color: #e93888;
+  background: #2a1e70;
+  padding: 0px 19px;
+}
+/*end post-comments*/
+
+/*post-comments-form*/
+
+.comment-form .form-group label {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 15px;
+}
+.comment-form .form-group input,
+.comment-form .form-group textarea {
+  background: rgba(255, 255, 255, 0.16);
+}
+.comment-form .form-group input::placeholder,
+.comment-form .form-group textarea::placeholder {
+  color: #b4b3c5;
+}
+.comment-form textarea {
+  min-height: 180px;
+}
+
+.comment-form .btn-bg {
+  min-width: 197px;
+  margin-top: 30px;
+}
+
+/*** ========================================================================================================
+  End blog details Page
+==========================================================================================================***/
+
+/****************************************************** */
+/*************** 02.Work Process Section  ************* */
+/****************************************************** */
+
+.how-to-attend-title {
+  margin-bottom: 60px;
+}
+.feature-block-two {
+  margin-bottom: 35px;
+}
+.feature-block-two .feature-icon {
+  margin-right: 30px;
+  margin-top: -18px;
+}
+.feature-block-two .feature-icon i {
+  font-size: 33px;
+  height: 66px;
+  width: 66px;
+  line-height: 66px;
+  margin-bottom: 0;
+}
+.feature-block-two .feature-icon span {
+  font-size: 80px;
+  font-family: "Poppins", sans-serif;
+  line-height: 90px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.05);
+  display: block;
+  text-align: center;
+}
+
+/****************************************************** */
+/*************** 02.Work Process Section  ************* */
+/****************************************************** */
+
+/*** ========================================================================================================
+  End ticket page
+==========================================================================================================***/
+
+.ticket-number-box.ticket .nice-select .option:hover,
+.ticket-number-box.ticket .nice-select .option.focus,
+.ticket-number-box.ticket .nice-select .option.selected.focus {
+  background-color: #2a1e70;
+}
+
+/*** ========================================================================================================
+  End ticket page
+==========================================================================================================***/

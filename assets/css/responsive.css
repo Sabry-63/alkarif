@@ -1,0 +1,245 @@
+
+/* // Large devices */
+@media only screen and (max-width: 1259.98px) {
+
+.schedule-content:after {
+    right: 179px;
+}
+
+
+}
+/* // Large devices */
+@media only screen and (max-width: 1199.98px) {
+h1 {
+    font-size: 75px;
+}
+.time-countdown ul li span {
+    font-size: 40px;
+}
+
+.schedule-content:after {
+    right: 150px;
+}
+
+
+}
+
+
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+h1 {
+    font-size: 75px;
+}
+/* hero */
+.register-wrap {
+    margin-left: 0px;
+}
+.time-countdown ul {
+    margin: 36px -2%;
+}
+.time-countdown ul li {
+    margin: 0 2%;
+}
+/* aobut */
+.about-image {
+    margin-left: 0px;
+}
+/* why-join */
+.why-join-content-wrap {
+    margin-right: 0px;
+}
+.feature-block-one-wrap {
+    margin-top: 50px;
+}
+
+.vedio-inner .vedio-play .icon {
+    height: 90px;
+    width: 90px;
+    line-height: 90px;
+    font-size: 40px;
+}
+
+/* single-schedule-item */
+.schedule-short-content {
+    margin-left: 0px;
+}
+/* schedule-speaker-date */
+.schedule-date-wrap {
+    border-radius: 4px;
+    margin: 0 15px;
+}
+.single-schedule-item {
+    margin-right: 0;
+}
+.schedule-content:after {
+    right: 0px;
+    display: none;
+}
+/* price table */
+.pricing-block {
+    margin-top: 0px; 
+}
+
+.contact-site {
+    margin-bottom: 30px;
+}
+
+/* logo */
+.logo-wrap {
+    margin: -25px -20px;
+}
+.logo-wrap a {
+    margin: 25px 20px;
+    width: 130px;
+}
+
+/* subscribe */
+.subscribe-inner {
+    margin: 30px;
+}
+.subscribe-wrap h3 {
+    font-size: 40px;
+}
+.subscribe-form button {
+    width: 150px;
+}
+/* contact */
+.contact-text {
+    margin-right: 0px;
+}
+/* footer */
+.copyright {
+    margin-bottom: 20px;
+}
+/* banner */
+.banner-section {
+    height: 350px;
+}
+
+}
+
+
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+h1 {
+    font-size: 70px;
+}
+
+.section-title {
+    margin-bottom: 60px;
+}
+.main-header .logo {
+    width: 80%;
+}
+/* price table */
+ .pricing-block.active {
+    margin-top: 20px;
+}
+/* logo */
+.logo-wrap {
+    margin: -25px -15px;
+}
+.logo-wrap a {
+    margin: 25px 15px;
+    width: 100px;
+}
+/* video */
+.vedio-play .ripple,
+.vedio-play .ripple:before,
+.vedio-play .ripple:after {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+}
+/* news */
+.single-news-block .blog-thumb img {
+    width: 100%;
+}
+.get-ticket-section {
+    min-height: 530px;
+}
+/* subscribe */
+.subscribe-wrap {
+    height: 300px;
+}
+.subscribe-wrap h3 {
+    font-size: 35px;
+}
+.subscribe-form button {
+    width: 120px;
+}
+.latest-comments .comments-avatar {
+    float: none;
+    margin-bottom: 20px;
+}
+/* banner */
+.banner-section {
+    height: 300px;
+}
+
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    h1 {
+        font-size: 50px;
+    }
+    .container {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .time-countdown ul li {
+        width: 45%;
+        margin: 2%;
+    }
+    /* register form */
+    .register-wrap h4 {
+        font-size: 28px;
+    }
+    /* video */
+    .vedio-inner img {
+        min-height: 250px;
+    }
+    .vedio-inner .vedio-play .icon {
+        height: 70px;
+        width: 70px;
+        line-height: 70px;
+        font-size: 30px;
+    }
+
+    /* subscribe */
+    .subscribe-inner {
+        margin: 20px;
+    }
+    .subscribe-wrap h3 {
+        font-size: 35px;
+    }
+    .subscribe-form input {
+        padding: 10px 10px;
+    }
+    .subscribe-form button {
+        width: 120px;
+        border-radius: 3px;
+    }
+
+    /* schdule */
+    .schdule-tab-btn .nav-link {
+        margin-right: 10px;
+        padding: 7px;
+        min-width: 75px;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 44px;
+    }
+}
+
+
+
+
